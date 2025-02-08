@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace atividade05
 {
-    internal class Exercicio03
+    internal class Exercicio04
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Digite alguma letra");
 
-            string lista = Console.ReadLine();
-            int[] ints = new int[lista.Length];
+            string texto = Console.ReadLine();
 
-            var resultado = ints.Length == 0 ? "A lista está vazia" : "A lista não está vazia";
+            var resultado = string.IsNullOrEmpty(texto) ? "A String está vazia" : "A String não está vazia";
 
             Console.WriteLine(resultado);
         }
     }
 }
+
