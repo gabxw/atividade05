@@ -1,4 +1,4 @@
-# Lista 05 - Ternário
+# Atividade05 - Ternário
 
 Este repositório contém os exercícios relacionados ao operador ternário em C#, desenvolvidos no ambiente **SharpDevelop**. A lista de exercícios aborda conceitos fundamentais do operador ternário, como verificação de condições e operações básicas.
 
